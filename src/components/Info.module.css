@@ -1,0 +1,33 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+
+.created,
+.done {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+
+	font-weight: bold;
+	font-size: 0.875rem;
+}
+
+.created p {
+	color: var(--blue-300);
+}
+
+.done p {
+	color: var(--purple-300);
+}
+
+.created small,
+.done small {
+	padding: 0.125rem 0.5rem;
+	background: var(--gray-400);
+	border-radius: 999px;
+
+	font-size: 0.75rem;
+	color: var(--gray-200);
+}
